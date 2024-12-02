@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Coldba",
+        "b": ["#243490", "#74B0CC", "#90131F"]
+    },
+    {
+        "name": "Fishland",
+        "b": ["#32AACF", "#F8FFFD", "#FDD839"]
+    },
+    {
+        "name": "Tanylezi",
+        "b": ["#213BCC", "#FF941A", "#E01A1A"]
+    },
+    {
+        "name": "Naronpar",
+        "b": ["#37B4DA", "#EEF4F3", "#5D7C0D"]
+    },
+    {
+        "name": "Stej Ven",
+        "b": ["#34ABD1", "#34ABD1", "#FED83A"]
+    },
+    {
+        "name": "Xarslasja",
+        "b": ["#E2C532", "#16161A", "#58750C"]
+    },
+    {
+        "name": "Realm of Madness",
+        "b": ["#B5291F", "#151519", "#632286"]
+    },
+    {
+        "name": "Hummland",
+        "b": ["#B90202", "#F2F2F2", "#0002B8"]
+    },
+    {
+        "name": "Enkavak",
+        "b": ["#1900b3", "#ffffff", "#d9a633"]
+    },
+    {
+        "name": "Kyaw Cen",
+        "b": ["#363FA4", "#C74DBD", "#FFFFFF"]
+    },
+    {
+        "name": "Xtrakva",
+        "b": ["#68206C", "#000000", "#68206C"]
+    },
+    {
+        "name": "Amuj",
+        "b": ["#DA7114", "#892DB8", "#37B4DA"]
+    }
+]
