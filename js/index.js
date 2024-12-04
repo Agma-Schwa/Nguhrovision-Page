@@ -1,6 +1,6 @@
 async function loadcolors() {
     try {
-        const response = await fetch('colors.json');
+        const response = await fetch('resources/colors.json');
         const colors = await response.json();
         setborders(colors);
     } catch (error) {
