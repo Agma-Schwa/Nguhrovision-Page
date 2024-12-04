@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ŋuhrovision</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   </head>
   <body>
     <div class="section">
@@ -33,6 +34,52 @@
             <div class="section">
               <h3>Participants</h3>
               <p>Some Text Here</p>
+
+              <div class="table-wrapper">
+                <div class="toolbar">
+                  <div class="tools">
+
+                    <div class="title">
+                      <span>Table</span>
+                    </div>
+
+                    <span flex="flex"></span>
+
+                    <div class="tool-item" layout="row">
+                      <a onclick="">
+                        <i class="ion-android-search">
+                        </i>
+                      </a>
+                    </div>
+                    <div class="tool-item" layout="row">
+                      <a onclick="toggletable()">
+                        <i class="ion-android-arrow-dropup hidden" id="b">
+                        </i>
+                        <i class="ion-android-arrow-dropdown" id="a">
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hideme" id="hideme">
+                  <table class="table" id="table">
+                    <thead>
+                      <tr>
+                        <th class="left">RO</th>
+                        <th>Thumb</th>
+                        <th>Artist</th>
+                        <th>Country</th>
+                        <th>Song</th>
+                      </tr>
+                    </thead>
+
+                    <tbody id="participants">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
             </div>
 
             <hr width="75%">

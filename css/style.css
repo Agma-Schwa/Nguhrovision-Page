@@ -93,3 +93,116 @@ a:hover {
 .links ul li a:hover {
     color: #fff;
 }
+
+/* table stuff */
+.table-wrapper {
+    width: 70%;
+    margin-left: 15%;
+}
+.toolbar {
+    background-color: rgb(63,81,181);
+    color: rgba(255,255,255,0.87);
+    border-radius: 32px 32px 0 0;
+    width: 100%;
+}
+.tools {
+    display: flex;
+    height: 64px;
+    max-height: 64px;
+    font-weight: 400;
+    padding: 25px 16px 0 16px;
+    align-items: center;
+}
+.tools .title {
+    margin-left: 5%;
+    font-size: 24px;
+}
+.tools span {
+    width: 100%;
+}
+.tool-item {
+    padding-right: 5%;
+}
+.tools a {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 24px;
+    cursor: pointer;
+}
+.table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+.table tbody tr:hover, .table tbody tr:focus {
+    cursor: pointer;
+    background-color: rgba(63,81,181,0.2);
+}
+.table th {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    color: rgb(130, 130, 130);
+    text-align: left;
+    padding: 16px 16px 16px 0;
+}
+.table td {
+    white-space: nowrap;
+    padding: 16px 32px 16px 0;
+    height: 40px;
+    color:  rgba(0, 0, 0, 0.87);
+    text-align: left;
+}
+.thumb {
+    max-width: 104px;
+    width: 104px;
+    padding: 0 32px 0 8px;
+}
+.thumb div {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+.table .left {
+    padding-left: 16px;
+}
+.hideme.hidden {
+    max-height: 0px;
+    display: inherit;
+    transition: max-height .5s cubic-bezier(.79,.14,.15,.86);
+    overflow: hidden;
+}
+.hideme {
+    max-height: 1000px;
+    transition: max-height .5s cubic-bezier(.79,.14,.15,.86);
+    overflow: hidden;
+}
+
+/* song stuff */
+.box {
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+}
+.artist {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.artist .thumb {
+    width: 40px;
+    max-width: 40px;
+}
+.artist span {
+    padding-right: 8px;
+}
+.box .vid {
+    padding: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+.hidden {
+    display: none;
+}
