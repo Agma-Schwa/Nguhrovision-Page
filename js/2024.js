@@ -12,12 +12,12 @@ async function loadcolors() {
 
         list.filter(item => item.year == 2024).sort((a, b) => a.ro - b.ro).forEach(item => {
             const row = document.createElement('tr');
-            row.onclick = function() {location.href=`/song.html?name=${encodeURI(item.name)}`};
+            row.onclick = function() {location.href=`song.html?name=${encodeURI(item.name)}`};
             row.innerHTML =`
                 <td class="left">${item.ro}</td>
                 <td>
                     <div class="thumb">
-                        <div style="background-image:url(/images/${item.thumb})"></div>
+                        <div style="background-image:url(images/${item.thumb})"></div>
                     </div>
                 </td>
                 <td class="bold">${item.artist}</td>
