@@ -18,7 +18,7 @@ async function load() {
         const info = document.getElementById('info');
 
         title.innerHTML = song.name;
-        image.style = `background-image:url(/images/${song.thumb})`;
+        image.style = `background-image:url(images/${song.thumb})`;
         artist.innerHTML = song.artist;
         video.src = song.video;
         info.innerHTML = `<p>${song.info}</p>`;
